@@ -1,6 +1,5 @@
-import './App.css'
-import React from 'react'
 import ProfileCard from './components/ProfileCard.jsx'
+import SimpleCounter from "./components/SimpleCounter";
 function App() {
  
 
@@ -11,6 +10,7 @@ function App() {
         name="Ankitraj Kadel"
         title="Software Engineer Inetrn"
         />
+        <SimpleCounter />
       </div>
     </>
   )
