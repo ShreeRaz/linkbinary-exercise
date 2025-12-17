@@ -1,5 +1,7 @@
 import ProfileCard from './components/ProfileCard.jsx'
 import SimpleCounter from "./components/SimpleCounter";
+import LoginForm from "./components/LoginForm";
+
 function App() {
  
 
@@ -11,6 +13,9 @@ function App() {
         title="Software Engineer Inetrn"
         />
         <SimpleCounter />
+        <h1>Log In</h1>
+        <div><LoginForm /></div>
+    
       </div>
     </>
   )
